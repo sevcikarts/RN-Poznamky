@@ -1,10 +1,11 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Home from './screens/home';
 import * as Font from 'expo-font';
 import { StyleSheet, Text, View } from 'react-native';
 import { useFonts } from '@use-expo/font';
 import Navigator from './routes/drawer';
 
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 
